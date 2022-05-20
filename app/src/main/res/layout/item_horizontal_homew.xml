@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/view"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/watch_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_watch_24" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="160dp"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Watch_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Base QuieCompact"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/watch_price_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$199.00"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/watch_discount_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$279.00 - 29% OFF"
+                android:textColor="#4DFFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
